@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Broswersetup.ITestListenerClass" />
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verifyTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test2">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verifyvaliduser" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test3">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verifyInvaliduser" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test name="Test4">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verifymouseHover" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test name="Test5">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_all_Links_available" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test name="Test6">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="Scrolling_All_Pages" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test7">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_featurecheck" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test8">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_searchBox" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test9">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_ss_of_Page" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test10">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_password_Change" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="Test11">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_rating_check" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test12">
+		<classes>
+			<class name="Testcases.TC02">
+				<methods>
+					<include name="verify_adressdetails" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

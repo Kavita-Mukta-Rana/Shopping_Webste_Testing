@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBroswerTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testonfirefox(failed)">
+    <parameter name="browserss" value="firefox"/>
+    <parameter name="url" value="https://magento.softwaretestingboard.com/"/>
+    <classes>
+      <class name="Testcases.TC01">
+        <methods>
+          <include name="browserLaunch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testcases.TC01 -->
+    </classes>
+  </test> <!-- testonfirefox(failed) -->
+</suite> <!-- Failed suite [CrossBroswerTest] -->
